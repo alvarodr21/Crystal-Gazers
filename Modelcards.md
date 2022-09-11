@@ -1,5 +1,5 @@
 # Crystal-Gazers
-This universitary project aims to train a ML model with the Wikipedia dataset in order to predict the next word given a sequence of words. The model will output a word for every input given. The model is developped in Python and executed in Kaggle.com .
+This universitary project aims to train a ML model with the Wikipedia dataset in order to predict the next word given a sequence of words. The model will output a word for every input given. The model is executed an developped in [Kaggle.com](https://www.kaggle.com) .
 
 ## Model description
 
@@ -7,12 +7,13 @@ To archieve the desired prediction we will use a Transformer model with one or m
 
 The model file gives the possibility to introduce multihead attention. At the end, there will be an accuracy comparison based on the performance of both methods. 
 
+The training of the model is based on Cross Entropy Loss and the parameters are updated by Adam optimizer, which is chosen to be the optimum empirically. The script is developped in Python using `torch` , `numpy` and `pandas` libraries among others.
+
+The model were created by [Jose A.R. Fonollosa](https://www.kaggle.com/jarfo1)
 ## Dataset
 The Wikipedia dataset is a collection of scraped Wikipedia pages. The dataset is defined in catalan language, thus the model will be trained to recognize input exclusively in catalan.
+The dataset can be found [here](https://www.kaggle.com/datasets/jarfo1/viquipdia).
 
-The dataset can be found in the following link:
-
-https://www.kaggle.com/datasets/jarfo1/viquipdia
 ---
 
 language:
