@@ -1,5 +1,5 @@
 # Crystal-Gazers
-This universitary project aims to train a ML model with the Wikipedia dataset in order to predict the next word given a sequence of words. The model will output a word for every input given. The model is depelopped  in Python and executed in Kaggle.com .
+This universitary project aims to train a ML model with the Wikipedia dataset in order to predict the next word given a sequence of words. The model will output a word for every input given. The model is developped  in Python and executed in Kaggle.com .
 
 ## Model description
 
